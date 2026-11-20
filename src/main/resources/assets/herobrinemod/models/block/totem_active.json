@@ -1,0 +1,2 @@
+{ "parent": "block/cube", "textures": { "particle": "herobrinemod:blocks/hellrock", "down": "herobrinemod:blocks/hellrock", "up": "herobrinemod:blocks/hellrock",
+  "north": "herobrinemod:blocks/blockskin2", "south": "herobrinemod:blocks/blockskin2", "west": "herobrinemod:blocks/blockskin2", "east": "herobrinemod:blocks/blockskin2" } }

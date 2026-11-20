@@ -1,0 +1,4 @@
+{
+  "itsherobrine": { "category": "record", "sounds": [ { "name": "herobrinemod:records/itsherobrine", "stream": true } ] },
+  "seeherobrine": { "category": "record", "sounds": [ { "name": "herobrinemod:records/seeherobrine", "stream": true } ] }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "active=false": { "model": "herobrinemod:totem" },
+    "active=true": { "model": "herobrinemod:totem_active" },
+    "inventory": { "model": "herobrinemod:totem" }
+  }
+}
