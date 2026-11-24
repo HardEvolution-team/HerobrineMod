@@ -1,5 +1,5 @@
 project_id = 1816895
-jar = "build/libs/*.jar"
+jar = "build/libs/herobrinemod-3.7.2.jar"
 changelog = "CHANGELOG.md"
 changelog_type = "markdown"
 changelog_latest_only = true

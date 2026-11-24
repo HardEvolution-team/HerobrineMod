@@ -1,0 +1,19 @@
+{
+  "_comment": "Where ArchaicLib downloads the original files of this port from. Edit freely; set locked=true to keep your edits when the mod updates. Files go to archaic_originals/ and are checked by sha256.",
+  "port": "herobrinemod",
+  "version": 3,
+  "locked": false,
+  "files": [
+    {
+      "file": "herobrinemod1.7.10.jar",
+      "name": "herobrinemod1.7.10.jar - The Herobrine Mod 3.7 for 1.7.10 (by Burnner)",
+      "sha256": "3b69709cced92df0397c5f2f19776a501bd3f85596b577d856cb1bb2ca5927a1",
+      "size": 3476701,
+      "page": "https://www.9minecraft.net/?p=434",
+      "mirrors": [
+        "scrape:https://files2.9minecraft.net/index.php?act=dl&id=1406646477 https://[a-z0-9.]+/index\\.php\\?act=download&(?:amp;)?id=1406646477&(?:amp;)?hash=[a-f0-9]+",
+        "scrape:https://files2.mc-mod.net/index.php?act=dl&id=1406646477 https://[a-z0-9.]+/index\\.php\\?act=download&(?:amp;)?id=1406646477&(?:amp;)?hash=[a-f0-9]+"
+      ]
+    }
+  ]
+}

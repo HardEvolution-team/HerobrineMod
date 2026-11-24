@@ -27,7 +27,7 @@ import java.util.Random;
 
 /** Herobrine's pranks. All server side. */
 public final class HerobrineStalker {
-    private static final Random RAND = new Random();
+    private static final Random RAND = new com.electrifiedded.archaiclib.util.FastRandom();
 
     public static final String[] CHRISTMAS = {
             "Damn! Build me a christmastree!", "Im satan santa!", "Hi!", "I got a present for you!", "HoHoHo!",
