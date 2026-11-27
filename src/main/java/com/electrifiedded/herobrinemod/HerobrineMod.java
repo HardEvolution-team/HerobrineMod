@@ -37,7 +37,7 @@ import org.apache.logging.log4j.Logger;
 import java.util.List;
 import java.util.Random;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, dependencies = "required-after:archaiclib@[1.40.0,)")
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, dependencies = "required-after:archaiclib@[1.47.0,)")
 public class HerobrineMod {
     public static final Logger LOG = LogManager.getLogger(Reference.MOD_ID);
 
@@ -149,6 +149,7 @@ public class HerobrineMod {
     public void init(FMLInitializationEvent event) {
         canSpawn = noTotem == 1 || prank == 1 || debug;
         List<Biome> overworld = LegacySpawns.biomes(LegacySpawns::isOverworld);
+        HerobrineJei.register();
         LegacySpawns.add(EntityChicken2.class, 1, 1, 2, EnumCreatureType.CREATURE, overworld);
         LegacySpawns.add(EntityCow2.class, 2, 1, 4, EnumCreatureType.CREATURE, overworld);
         LegacySpawns.add(EntityPig2.class, 1, 1, 1, EnumCreatureType.CREATURE, overworld);
